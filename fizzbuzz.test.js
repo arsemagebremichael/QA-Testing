@@ -10,3 +10,13 @@ const fizzBuzz = require("./fizzbuzz");
     expect(fizzBuzz(12)).toBe('Fizz');
     expect(fizzBuzz(-3)).toBe('Fizz');
   });
+  test('returns "Buzz" for numbers divisible by 5', () => {
+    expect(fizzBuzz(5)).toBe('Buzz');
+    expect(fizzBuzz(20)).toBe('Buzz');
+    expect(fizzBuzz(-5)).toBe('Buzz');
+  });
+
+  test('returns the number as a string for numbers not divisible by 3 or 5', () => {
+    expect(fizzBuzz(52)).toBe('52');
+    expect(fizzBuzz(68)).toBe('68');
+  });
