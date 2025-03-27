@@ -11,3 +11,6 @@ test('module of 7 is not even', () =>{
 test('module of -7 is not even', () =>{
     expect(isEven(-7)).toBe(false);
 });
+test('module of 0 is not even', () =>{
+    expect(isEven()).toBe(false);
+});
