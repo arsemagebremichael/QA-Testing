@@ -1,0 +1,20 @@
+{
+  "name": "qa-testing",
+  "version": "1.0.0",
+  "description": "QA testing exercise",
+  "main": "numbers.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsemagebremichael/QA-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsemagebremichael/QA-Testing/issues"
+  },
+  "homepage": "https://github.com/arsemagebremichael/QA-Testing#readme"
+}
