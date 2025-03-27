@@ -1,4 +1,6 @@
-const isValidEmail = require('./emailValidator');
+const isValidEmail = require("./ emailValidator");
+
+
 test('should accept this email format', () => {
     expect(isValidEmail('adeday@gmail.com')).toBe(true);
 });
